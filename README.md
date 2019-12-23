@@ -1,5 +1,6 @@
 # jstack2devtools
 Converts java stacktraces to Chromium DevTools format .json
+
 Similar to VisualVM and JProfiler, but better - contains Timeline
 
 ![alt text](https://github.com/Szperak/jstack2devtools/raw/master/demo.png "Chrome demo")
@@ -10,8 +11,9 @@ Building
 
 Running
 =====
-Paste your stacks.txt to the workdir
-Run `./jstack2devtools` and import `events.json` in your DevTools
+Paste your stacks.txt to the workdir.
+
+Run `./jstack2devtools` and import `events.json` in your DevTools.
 
 
 
