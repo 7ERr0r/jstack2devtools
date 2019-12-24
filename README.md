@@ -1,7 +1,10 @@
 # jstack2devtools
 Converts java stacktraces to Chromium DevTools format .json
 
-Similar to VisualVM and JProfiler, but better - contains Timeline
+Profile your app simply without RMI/Java agent
+
+Method similar to VisualVM sampler and JProfiler, but better - contains Timeline, 
+which allows you to spot *when* the lag spike happened and what caused it (if it wasn't GC).
 
 ![alt text](https://github.com/Szperak/jstack2devtools/raw/master/demo.png "Chrome demo")
 
